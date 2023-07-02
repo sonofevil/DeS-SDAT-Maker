@@ -1,3 +1,20 @@
+DeS-SDAT-Maker
+==========
+
+This fork aims to provide a compiled binary of make_npdata as well as a script for easy creation of .sdat files for Demon's Souls.
+
+Usage:
+
+`makeDeSsdat.sh <path to file>`
+
+.sdat file will be created in the directory of the input file.
+
+See console output of `make_npdata` for usage.
+
+To compile make_npdata for Linux, run `make` in Linux directory. Requires gcc.
+
+Readme for make_npdata below:
+
 make_npdata
 ==========
 
