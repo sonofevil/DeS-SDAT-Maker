@@ -12,8 +12,8 @@ endif
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	mkdir -p ./build
 	$(CC) $(CFLAGS) -o $@ $(OBJS)
+	chmod +x ./build/makeDeSsdat.sh
 
 clean:
 	$(RM) *.o $(TARGET) *.exe
