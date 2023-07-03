@@ -5,18 +5,19 @@ This fork aims to provide a compiled binary of make_npdata as well as a script f
 
 Usage:
 
-`makeDeSsdat.sh <path to file>`
+`makeDeSsdat.sh <file paths>`
 
-.sdat file will be created in the directory of the input file.
+Each .sdat file will be created in the directory of the input file.
+
+make_npdata
+-------
 
 See console output of `make_npdata` for usage.
 
 To compile make_npdata for Linux, run `make` in Linux directory. Requires gcc.
 
-Readme for make_npdata below:
-
-make_npdata
-==========
+Original readme for make_npdata:
+-
 
 Tool to encrypt/decrypt/bruteforce EDAT/SDAT files from PS3 games. Written by **Hykem**.
 
