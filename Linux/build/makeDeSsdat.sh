@@ -15,6 +15,7 @@ for inputFile in "$@"; do
   if test -f "$inputFile"; then
     outputFile="$inputFile.sdat"
     "$cmdDir/make_npdata" -e "$inputFile" "$outputFile" $encSettings
+    if $?; then echo "Successfully created $outputFile"; fi
   else
     echo "File not found: $inputFile"
   fi
